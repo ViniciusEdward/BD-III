@@ -22,4 +22,3 @@ class Usuario(Base):
 
 # Criando tabela no banco de dados.
 Base.metadata.create_all(bind=db)
-    
